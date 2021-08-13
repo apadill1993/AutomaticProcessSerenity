@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Account test","Acc logo","SUCCESS","2021-08-13T12:30:54.853-05:00[America/Bogota]","0.0","84.3"
+"Account test","Search test","ERROR","2021-08-13T12:32:19.997-05:00[America/Bogota]","0.0","40.28"

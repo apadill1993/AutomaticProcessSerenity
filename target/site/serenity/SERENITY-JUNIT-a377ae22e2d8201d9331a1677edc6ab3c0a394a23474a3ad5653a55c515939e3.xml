@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test.AccountTest" skipped="0" tests="2" time="124.58" timestamp="2021-08-13 12:30:54"><testcase classname="Test.AccountTest" name="Acc logo"/><testcase classname="Test.AccountTest" name="Search test"><error message="Expected condition failed: waiting for Expecting text present: 'Summer Dresses &gt; Printed Summer ' (tried for 5 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-U9OQQ9U', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for Expecting text present: 'Summer Dresses &gt; Printed Summer ' (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U9OQQ9U', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for Expecting text present: 'Summer Dresses &gt; Printed Summer ' (tried for 5 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U9OQQ9U', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown&#13;
+Pages.AccountPage.search(AccountPage.java:23)&#13;
+StepDefinitions.AccountPageStep.searchArticle(AccountPageStep.java:17)&#13;
+Test.AccountTest.searchTest(AccountTest.java:40)&#13;
+</system-err></testcase></testsuite>
