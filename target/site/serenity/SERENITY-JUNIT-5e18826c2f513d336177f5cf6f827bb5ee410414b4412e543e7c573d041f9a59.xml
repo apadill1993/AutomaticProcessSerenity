@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Test.LoginTest" skipped="0" tests="1" time="68.83" timestamp="2021-08-13 11:34:09"><testcase classname="Test.LoginTest" name="Login test"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Test.LoginTest" skipped="0" tests="1" time="5.35" timestamp="2022-05-04 11:02:43"><testcase classname="Test.LoginTest" name="Login test"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+Pages.LoginPage.goToHome(LoginPage.java:14)&#13;
+StepDefinitions.LoginPageStep.goHome(LoginPageStep.java:13)&#13;
+Test.LoginTest.loginTest(LoginTest.java:21)&#13;
+</system-err></testcase></testsuite>

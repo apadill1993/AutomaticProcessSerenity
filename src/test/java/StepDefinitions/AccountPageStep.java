@@ -13,11 +13,6 @@ public class AccountPageStep {
     }
 
     @Step
-    public String searchArticle(String keyword, String articleName){
-        return accountPage.search(keyword, articleName);
-    }
-
-    @Step
     public void addToChart(){
         accountPage.addToChart();
     }

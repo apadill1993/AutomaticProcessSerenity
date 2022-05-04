@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-08-2021 11:34</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-05-2022 11:02</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -173,9 +173,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="failing-color">
                                     Login test
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -215,43 +215,12 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="top-level-step">
-                                                Is on login page
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                            <td width="160" class="SUCCESS-text">
-
-                                    <a href="5e18826c2f513d336177f5cf6f827bb5ee410414b4412e543e7c573d041f9a59_screenshots.html#screenshots?screenshot=0">
-                                        <img src="05df3f828974380f563757e5f6d7e2fdff5898ca06a51b15e3373336766240c1.png"
-                                             href="05df3f828974380f563757e5f6d7e2fdff5898ca06a51b15e3373336766240c1.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">44.54s</span></td>
-                    </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="50" class="step-icon">
-                            <a name="1"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                 </span>
                         </td>
 
@@ -265,84 +234,92 @@
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
+                            <td width="160" class="FAILURE-text">
 
-                                    <a href="5e18826c2f513d336177f5cf6f827bb5ee410414b4412e543e7c573d041f9a59_screenshots.html#screenshots?screenshot=1">
-                                        <img src="ebc28e75f6c9baa2e0015bc893e3cc6f36c693eb416d082e51a982a2763ee78e.png"
-                                             href="ebc28e75f6c9baa2e0015bc893e3cc6f36c693eb416d082e51a982a2763ee78e.png"
+                                    <a href="5e18826c2f513d336177f5cf6f827bb5ee410414b4412e543e7c573d041f9a59_screenshots.html#screenshots?screenshot=0">
+                                        <img src="288d493b48b770ba545f043b68a6fc02c09a1e53ea73708aec42a46b56e88e5c.png"
+                                             href="288d493b48b770ba545f043b68a6fc02c09a1e53ea73708aec42a46b56e88e5c.png"
                                              class="screenshot"
                                              width="48" height="48"/>
                                     </a>
                             </td>
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">12.14s</span></td>
+                        <td width="130"><span class="top-level-step">FAILURE</span></td>
+                        <td width="100"><span class="top-level-step">5.34s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="4" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-1">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>Pages.LoginPage.goToHome(LoginPage.java:14)<br />StepDefinitions.LoginPageStep.goHome(LoginPageStep.java:13)<br />Test.LoginTest.loginTest(LoginTest.java:21)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.cssSelector: .btn-primary to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>Pages.LoginPage.goToHome(LoginPage.java :14)<br />StepDefinitions.LoginPageStep.goHome(LoginPageStep.java :13)<br />Test.LoginTest.loginTest(LoginTest.java :21)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="50" class="step-icon">
-                            <a name="2"></a>
+                            <a name="1"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Login as user
+                                                Invalid access
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
+                            <td width="160" class="SKIPPED-text">
 
-                                    <a href="5e18826c2f513d336177f5cf6f827bb5ee410414b4412e543e7c573d041f9a59_screenshots.html#screenshots?screenshot=2">
-                                        <img src="29ccbb11176689428968d2c0b972253fdc26e9a04bfc0b1b216c6c5451d86282.png"
-                                             href="29ccbb11176689428968d2c0b972253fdc26e9a04bfc0b1b216c6c5451d86282.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
                             </td>
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">11.44s</span></td>
+                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
+                        <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="50" class="step-icon">
-                            <a name="3"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="top-level-step">
-                                                User should be login
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                            <td width="160" class="SUCCESS-text">
-
-                                    <a href="5e18826c2f513d336177f5cf6f827bb5ee410414b4412e543e7c573d041f9a59_screenshots.html#screenshots?screenshot=3">
-                                        <img src="29ccbb11176689428968d2c0b972253fdc26e9a04bfc0b1b216c6c5451d86282.png"
-                                             href="29ccbb11176689428968d2c0b972253fdc26e9a04bfc0b1b216c6c5451d86282.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.67s</span></td>
-                    </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                         <td colspan="3"></td>
-                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>68.83s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>5.35s</em></span></td>
                 </tr>
 
             </table>

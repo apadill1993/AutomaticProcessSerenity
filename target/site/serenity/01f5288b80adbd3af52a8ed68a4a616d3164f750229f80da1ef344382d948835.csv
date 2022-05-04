@@ -1,5 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login test","Login test","SUCCESS","2021-08-13T11:34:09.644-05:00[America/Bogota]","0.0","68.83"
-"Contact us test","Fill contact page test","SUCCESS","2021-08-13T12:20:15.92-05:00[America/Bogota]","0.0","154.45"
-"Show category test","Click on category page test","SUCCESS","2021-08-13T12:28:09.756-05:00[America/Bogota]","0.0","82.21"
-"Account test","Acc logo","SUCCESS","2021-08-13T12:30:54.853-05:00[America/Bogota]","0.0","84.3"
+"Account test","View catalog","SUCCESS","2022-05-04T11:01:56.565-05:00[America/Bogota]","0.0","35.66"
+"Account test","Search product","SUCCESS","2022-05-04T11:02:32.42-05:00[America/Bogota]","0.0","6.07"
+"Account test","Do login","SUCCESS","2022-05-04T11:02:38.53-05:00[America/Bogota]","0.0","2.92"

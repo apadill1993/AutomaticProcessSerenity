@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-08-2021 11:34</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-05-2022 11:02</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Login test
+                                <span class="failing-color">Login test
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -205,12 +205,55 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>Pages.LoginPage.goToHome(LoginPage.java:14)<br />StepDefinitions.LoginPageStep.goHome(LoginPageStep.java:13)<br />Test.LoginTest.loginTest(LoginTest.java:21)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.cssSelector: .btn-primary to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>Pages.LoginPage.goToHome(LoginPage.java :14)<br />StepDefinitions.LoginPageStep.goHome(LoginPageStep.java :13)<br />Test.LoginTest.loginTest(LoginTest.java :21)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4976001133393599400.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="05df3f828974380f563757e5f6d7e2fdff5898ca06a51b15e3373336766240c1.png" title=" Is on login page" width="1034"/>
-                <img src="ebc28e75f6c9baa2e0015bc893e3cc6f36c693eb416d082e51a982a2763ee78e.png" title=" Go home" width="1034"/>
-                <img src="29ccbb11176689428968d2c0b972253fdc26e9a04bfc0b1b216c6c5451d86282.png" title=" Login as user" width="1034"/>
-                <img src="29ccbb11176689428968d2c0b972253fdc26e9a04bfc0b1b216c6c5451d86282.png" title=" User should be login: <span class='success-color'>SUCCESS</span>" width="1034"/>
+                <img src="288d493b48b770ba545f043b68a6fc02c09a1e53ea73708aec42a46b56e88e5c.png" title=" Go home: <span class='failing-color'>FAILURE</span>" width="1554"/>
             </div>
         </div>
 

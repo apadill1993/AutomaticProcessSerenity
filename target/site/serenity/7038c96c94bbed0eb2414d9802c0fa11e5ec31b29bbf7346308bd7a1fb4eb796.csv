@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Account test","Acc logo","SUCCESS","2021-08-13T12:30:54.853-05:00[America/Bogota]","0.0","84.3"
-"Account test","Search test","ERROR","2021-08-13T12:32:19.997-05:00[America/Bogota]","0.0","40.28"
+"Account test","View catalog","SUCCESS","2022-05-04T11:01:56.565-05:00[America/Bogota]","0.0","35.66"
+"Account test","Search product","SUCCESS","2022-05-04T11:02:32.42-05:00[America/Bogota]","0.0","6.07"
+"Account test","Do login","SUCCESS","2022-05-04T11:02:38.53-05:00[America/Bogota]","0.0","2.92"

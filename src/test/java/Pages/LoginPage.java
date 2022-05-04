@@ -3,27 +3,19 @@ package Pages;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 
-@DefaultUrl("http://automationpractice.com/index.php")
+@DefaultUrl("https://demo.opencart.com/admin/index.php?route=common/login")
 public class LoginPage extends PageObject {
 
     public void goToHome(){
-       $(By.linkText("Sign in")).click();
+        By btnLogin = By.cssSelector(".btn-primary");
+        element(btnLogin).click();
     }
 
-    public void Login(){
-        $("#email").sendKeys("anlupama@gmail.com");
-        $("#passwd").sendKeys("Andy1234");
-        $("#SubmitLogin").click();
-    }
-
-    public String accountUserPage(){
-        return $("div#center_column h1").getText();
-    }
-
-    public void goToContactPage(){
-        $(By.linkText("Contact us")).click();
+    public void invalidAccess(){
+        $("#input-username").sendKeys("anlupama");
+        $("#input-password").sendKeys("Andy1234");
+        By btnLogin = By.cssSelector(".btn-primary");
+        element(btnLogin).click();
     }
 }

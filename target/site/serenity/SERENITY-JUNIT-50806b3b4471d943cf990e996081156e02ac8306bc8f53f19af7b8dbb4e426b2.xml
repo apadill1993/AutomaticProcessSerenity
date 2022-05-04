@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Test.AccountTest" skipped="0" tests="3" time="44.65" timestamp="2022-05-04 11:01:56"><testcase classname="Test.AccountTest" name="View catalog"/><testcase classname="Test.AccountTest" name="Search product"/><testcase classname="Test.AccountTest" name="Do login"/></testsuite>

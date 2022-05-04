@@ -2,12 +2,11 @@ package Test;
 
 
 import Pages.BaseTest;
-import StepDefinitions.AccountPageStep;
 import StepDefinitions.LoginPageStep;
+import StepDefinitions.CatalogPageStep;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -18,26 +17,30 @@ public class AccountTest extends BaseTest {
     LoginPageStep loginPageStep;
 
     @Steps
-    AccountPageStep accountPageStep;
+    CatalogPageStep catalog;
 
-    @Before
-    public void setup(){
+    //Iniciar sesión
+    @Test
+    public void doLogin(){
         loginPageStep.isOnLoginPage();
         loginPageStep.goHome();
-        loginPageStep.loginAsUser();
-        loginPageStep.userShouldBeLogin();
     }
 
+    //Ver catalogo de productos
     @Test
-    public void accLogo(){
-        accountPageStep.verifyLogo();
+    public void viewCatalog(){
+        loginPageStep.isOnLoginPage();
+        loginPageStep.goHome();
+        catalog.viewCatalog();
     }
 
+    //Filtrar productos por nombre
     @Test
-    public void searchTest(){
-        String result = accountPageStep.searchArticle("Dress", "Summer Dresses > Printed Summer ");
-        Assert.assertEquals("Printed Summer Dress", result);
-
-        //accountPageStep.addToChart();
+    public void searchProduct(){
+        loginPageStep.isOnLoginPage();
+        loginPageStep.goHome();
+        catalog.viewCatalog();
+        String result = catalog.searchProduct("can", "Canon EOS 5D");
+        Assert.assertEquals("Canon EOS 5D", result);
     }
 }
